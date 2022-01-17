@@ -25,7 +25,7 @@ nameserverip2="192.168.178.1"
 
 gzip -d *.gz
 sudo apt install -y kpartx
-sudo kpartx -v -a CoreELEC-Amlogic-ng.arm-19.4-Matrix_rc1-Odroid_N2.img 
+sudo kpartx -v -a *.img 
 mkdir p1
 mkdir p2
 sudo mount /dev/mapper/loop0p1 p1/
